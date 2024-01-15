@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test_bot_django"
+authors = ['Kochetov Alexei']
+readme = 'README.md'
+description = ''
+version= '0.1.0'
+
+
+[tool.poetry.dependencies]
+python = '^3.11'
+django = '4.2.2'
+django-grappelli = '3.0.8'
+environs = '9.5.0'
+pyTelegramBotAPI ='4.10.0'
+
+[build-system]
+requires = ['poetry-core']
+build-backend = 'poetry.core.masonry.api'
